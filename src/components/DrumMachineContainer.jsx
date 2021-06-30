@@ -1,5 +1,6 @@
 import React from "react";
-import { MainContainer, Display } from "./styled-components/DrumMachineContainer";
+import { MainContainer, Display, DrumPadsContainer } from "./styled-components/DrumMachineContainer";
+import DrumPad from "./DrumPad";
 
 const DrumMachineContainer = () => {
   return (
@@ -7,7 +8,9 @@ const DrumMachineContainer = () => {
       <Display id="display">
         <span>Display</span>
       </Display>
-      <div id="drum-pads-container">Sonidos</div>
+      <DrumPadsContainer>
+        <DrumPad />
+      </DrumPadsContainer>
     </MainContainer>
   );
 };
