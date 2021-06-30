@@ -1,9 +1,16 @@
+import React from 'react';
+import { GlobalStyle, AppDiv, Title } from './components/styled-components/AppStyled';
+import DrumMachineContainer from './components/DrumMachineContainer';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Caja de ritmos</h1>
-    </div>
+    <AppDiv id="drum-machine">
+      <GlobalStyle />
+      <Title>Caja de ritmos</Title>
+      <DrumMachineContainer />
+    </AppDiv>
   );
 }
 
