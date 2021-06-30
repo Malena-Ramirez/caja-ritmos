@@ -13,7 +13,11 @@ export const MainContainer = styled.div`
 `
 
 export const Display = styled.div`
-  width: 200px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
   height: 50px;
   border-radius: 40px;
   background-color: #f6f44b;
