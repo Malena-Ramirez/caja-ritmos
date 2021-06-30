@@ -18,7 +18,7 @@ align-items: center;
 }&:active{
   transform: translateY(8px);
   background-color: #282334;
-  -webkit-box-shadow: 0px 0px 30px 1px rgba(101,254,255,0.4); 
-  box-shadow: 0px 0px 30px 1px rgba(101,254,255,0.4);
+  -webkit-box-shadow: 0px 0px 30px 1px rgba(101,254,255,0.45); 
+  box-shadow: 0px 0px 30px 1px rgba(101,254,255,0.45);
 }
 `
