@@ -1,4 +1,4 @@
-# Caja de ritmos ✍🎲
+# Caja de ritmos🎵
 Juega con los sonidos de la caja de ritmos presionando los botones de cada sonido. 
 
 Puedes verlo [aquí](https://cajaderitmos.netlify.app/).
