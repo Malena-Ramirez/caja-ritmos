@@ -35,10 +35,11 @@ export const Title = styled.h1`
   font-size: 2rem;
   text-align: center;
   color: #fff;
-  -webkit-animation: ${glow} 1s ease-in-out infinite alternate;
-  -moz-animation: ${glow} 1s ease-in-out infinite alternate;
-  animation: ${glow} 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   @media (min-width: 460px) {
     font-size: 2.5rem;
+    -webkit-animation: ${glow} 1s ease-in-out infinite alternate;
+    -moz-animation: ${glow} 1s ease-in-out infinite alternate;
+    animation: ${glow} 1s ease-in-out infinite alternate;
   }
 `
