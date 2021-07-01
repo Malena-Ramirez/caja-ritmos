@@ -18,7 +18,7 @@ export const AppDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-evenly; 
 `
 
 const glow = keyframes`
@@ -32,10 +32,13 @@ const glow = keyframes`
 
 export const Title = styled.h1`
   margin-top: 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   color: #fff;
   -webkit-animation: ${glow} 1s ease-in-out infinite alternate;
   -moz-animation: ${glow} 1s ease-in-out infinite alternate;
   animation: ${glow} 1s ease-in-out infinite alternate;
+  @media (min-width: 460px) {
+    font-size: 2.5rem;
+  }
 `
