@@ -2,8 +2,6 @@ import React from 'react';
 import { GlobalStyle, AppDiv, Title } from './components/styled-components/AppStyled';
 import DrumMachineContainer from './components/DrumMachineContainer';
 
-
-
 function App() {
   return (
     <AppDiv id="drum-machine">
