@@ -5,14 +5,7 @@ Puedes verlo [aquí](https://cajaderitmos.netlify.app/).
 
 ## 🔍 Vistas 
 
-<!-- ### 💻 Desktop
-
-![Vista desktop](https://i.imgur.com/T2NDoiN.jpg)
-
-### 📱 Mobile
-
-![Vista mobile](https://i.imgur.com/i43uoFg.jpg) -->
-
+![Vista desktop](https://i.imgur.com/hAyqGBA.jpg)
 
 ## 📌 Stack
 
